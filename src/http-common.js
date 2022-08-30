@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: process.env.BASE_URL || 'https://crud-qualicorp.herokuapp.com',
+  baseURL: 'https://crud-qualicorp.herokuapp.com/api',
   headers: {
     'Content-type': 'application/json',
   },
