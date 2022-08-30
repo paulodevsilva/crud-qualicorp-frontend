@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:3333/api',
+  baseURL: 'https://crud-qualicorp.herokuapp.com',
   headers: {
     'Content-type': 'application/json',
   },
