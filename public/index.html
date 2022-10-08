@@ -14,4 +14,18 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "d2a9867b-08f7-4f0d-a566-eadac008e237",
+      safari_web_id: "web.onesignal.auto.26339961-08fd-44e5-8197-7ce61bb1927b",
+      notifyButton: {
+        enable: true,
+      },
+      subdomainName: "crud-qualicorp",
+    });
+  });
+</script>
 </html>
